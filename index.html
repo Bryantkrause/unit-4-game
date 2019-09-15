@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/CSS/reset.css">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
 </head>
+
 <body>
-    
+  <div class="container">
+    <div class="row" id="message">
+      <nav>
+        <div class="nav-wrapper">
+          <span class="brand-logo center">Welcome To The Crystal Game!</span>
+        </div>
+      </nav>
+    </div>
+    <div class="row" id="gems">
+    </div>
+    <div class="row" id="results">
+            <div class="card-panel">
+              <p>
+                Target Number: <span id="goal"></span>
+              </p>
+              <p>
+                Current Number: <span id="current"></span>
+              </p>
+              <p>
+                Wins: <span id="wins"></span>
+              </p>
+              <p>
+                Losses: <span id="losses"></span>
+              </p>
+            </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/JS/game.js"></script>
+ 
 </body>
-<script src="./assets/JS/game.js"></script>
+
 </html>
